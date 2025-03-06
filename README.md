@@ -18,6 +18,12 @@ Each group will follow structured lab exercises to learn:
 
 At the end of the lab, students will **successfully implement a PID controller in their PLC** and understand its application in an industrial process.  
 
-## 📂 Repository Structure  
-Industrial_Automation_Labs/ │── README.md # Overview of the project and lab structure │── Lab_Sheets/ # Markdown files for each lab │── PLC_Code/ # Siemens & Omron PLC programs │── RaspberryPi_Code/ # Python scripts for MAX31855 and PyModbus │── Docs/ # Additional setup guides and troubleshooting
+The following structure organizes the repository for easy navigation:  
+
+- **Industrial_Automation_Labs/**  
+  - 📄 `README.md` → Overview of the project and lab structure  
+  - 📂 `Lab_Sheets/` → Markdown files for each lab  
+  - 📂 `PLC_Code/` → Siemens & Omron PLC programs  
+  - 📂 `RaspberryPi_Code/` → Python scripts for MAX31855 and PyModbus  
+  - 📂 `Docs/` → Additional setup guides and troubleshooting 
 
