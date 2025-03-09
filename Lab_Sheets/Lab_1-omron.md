@@ -255,7 +255,7 @@ Click the **Transfer to Device** Button.
 When the transfer is completed, the HMI is restarted automatically.
 
 
-## 5. Testing & Final Exercise
+## 6. Testing & Final Exercise
 
 ### Exercise: Sequential Pump Start with Timers
 
@@ -269,7 +269,7 @@ When the transfer is completed, the HMI is restarted automatically.
 
 ---
 
-## 6. Conclusion
+## 7. Conclusion
 
 By completing this lab, students have:
 - Set up **network communication** between Omron PLC, HMI, and PC.
