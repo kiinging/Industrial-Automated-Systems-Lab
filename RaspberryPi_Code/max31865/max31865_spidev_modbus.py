@@ -110,4 +110,4 @@ if __name__ == "__main__":
     identity.MajorMinorRevision = '1.0'
 
     print("Starting Modbus TCP server...")
-    StartTcpServer(context=context, identity=identity, address=("192.168.0.50", 1502))
+    StartTcpServer(context=context, identity=identity, address=("192.168.0.100", 1502))
