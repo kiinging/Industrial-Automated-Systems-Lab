@@ -1,0 +1,16 @@
+[Unit]
+Description=PyModbus TCP Server
+After=network.target
+Wants=network-online.target
+
+[Service]
+User=pizza
+WorkingDirectory=/home/pizza
+ExecStartPre=/bin/sleep 10
+ExecStart=/home/pizza/bin/python /home/pizza/max31855_spidev_modbus.py
+Restart=always
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target
